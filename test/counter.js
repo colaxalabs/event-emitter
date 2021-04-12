@@ -17,7 +17,7 @@ describe("Counter", function () {
     expect(await counterContract.getCount()).to.equal(ethers.BigNumber.from(1));
   });
 
-  it("Should emit ValueChanged event correctly when tracking counters", async function () {
+  it("Should emit 'ValueChanged' event correctly when tracking counters", async function () {
     await expect(counterContract.increment())
       .to.emit(counterContract, "ValueChanged")
       .withArgs(ethers.BigNumber.from(1), ethers.BigNumber.from(2));
