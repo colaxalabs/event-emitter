@@ -1,1 +1,1 @@
-# Minimal contract event descripter
+# Minimal contract event descriptor
