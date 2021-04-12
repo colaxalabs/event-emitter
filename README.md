@@ -1,0 +1,1 @@
+# Minimal contract event descripter
