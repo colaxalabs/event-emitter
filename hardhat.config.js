@@ -1,5 +1,6 @@
 /* globals process */
 
+require("dotenv").config();
 require("@nomiclabs/hardhat-waffle");
 
 require("./scripts/deploy");
